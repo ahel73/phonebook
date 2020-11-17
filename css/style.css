@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+:root{
+    font-size: 10px;
+}
+body{
+    font-size: 1.6rem;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(236, 239, 244);
+}
+.shell{
+    width: 320px;
+    margin: 100px auto;
+}
+.window_add_contact, .phone_list{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.2);
+    margin-bottom: 1.5em;
+}
+h2, label, section, .css_block_btn{
+    padding: 1.5em;
+}
+h2, section{
+    border-bottom: 2px solid rgb(238, 238, 238);
+}
+label{
+    display: block;
+}
+input{
+    width: 100%;
+    border: 2px solid rgb(238, 238, 238);
+    padding: 1em;
+    border-radius: 5px;
+}
+form label:last-of-type{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.css_block_btn{
+    text-align: right;
+}
+button{
+    background: rgb(77, 89, 161);
+    padding: 1em;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+section p:last-of-type{
+    color: grey;
+    margin-top: .5em;
+}
+main section:last-of-type{
+    border: none    ;
+}
+section p{
+    display: flex;
+    align-items: center;
+}
+.remove{
+    display: inline-block;
+    width: 8px;
+    height: 7px;
+    background-image: url(../img/delete.png);
+    cursor: pointer;
+    margin-left: 5px;
+}
+h4{
+    font-size: 1.2rem;
+    color: red;
+}
+h3{
+    color: red;
+    padding: .3em 1.5em;
+}
+.modal_konteyner {
+    display: none;
+    position: absolute;
+    top: 0;
+    background: rgba(236,239,241 ,1);
+    width: 100%;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+}
+.modal_konteyner form{
+    border-radius: 5px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.2);
+}
+.modal_konteyner h3{
+    color: rgb(77, 89, 161);
+    padding: 0 0 10px;
+}
+.modal_konteyner .css_block_btn{
+    display: flex;
+    justify-content: space-between;
+}
+.modal_konteyner .cloze_modal{
+    background: rgb(229, 115, 115);
+}
